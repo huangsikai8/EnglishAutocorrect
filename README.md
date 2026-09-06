@@ -1,6 +1,18 @@
-# EnglishAutocorrect
+<p align="center">
+  <img src="docs/logo.png" alt="" width="128" height="128">
+</p>
 
-iOS-style autocorrect for macOS, everywhere you type.
+<h1 align="center">EnglishAutocorrect</h1>
+
+<p align="center">
+  <strong>iOS-style autocorrect for macOS, everywhere you type.</strong>
+</p>
+
+<p align="center">
+  <img alt="Platform: macOS 14+" src="https://img.shields.io/badge/platform-macOS%2014%2B-1d1d1f">
+  <img alt="Swift 5" src="https://img.shields.io/badge/Swift-5-F05138">
+  <img alt="InputMethodKit" src="https://img.shields.io/badge/InputMethodKit-5B6CF9">
+</p>
 
 macOS has never shipped the autocorrect that iOS has. The system offers
 spell *checking* — red underlines, a context menu, a replacement you have to
@@ -146,11 +158,24 @@ EnglishAutocorrect/
   HotKeyOption.swift                 Hotkey model
   HotKeyRecorderButton.swift         Hotkey recorder control
   *.txt, en_US.dic, en_US.aff        Bundled dictionaries
+  Assets.xcassets/                   App icon, 16pt through 512pt@2x
 
 Tests/                               Logic tests
+Tools/MakeIcon.swift                 Draws the icon with CoreGraphics
+Tools/generate-icons.sh              Regenerates every icon size
 Vendor/hunspell/                     Prebuilt Hunspell static library
+docs/logo.png                        The mark, as used above
 rebuild.sh                           Build and install
 run-tests.sh                         Compile and run the tests
+```
+
+The icon is generated rather than hand-drawn: `Tools/MakeIcon.swift` renders
+the mark parametrically, with separate artwork below 48pt where the squiggle
+would otherwise blur into a bar. The PNGs are committed, so a normal build
+never needs to regenerate them.
+
+```sh
+./Tools/generate-icons.sh
 ```
 
 ## Tests
