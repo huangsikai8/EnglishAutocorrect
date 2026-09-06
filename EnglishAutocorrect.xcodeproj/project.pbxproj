@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111CE3987279282EB7C26561 /* en-frequency-dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = A09BFDBEF901ECB7ED459AD0 /* en-frequency-dictionary.txt */; };
+		38F55CD63CAFADA85117875F /* en-bigram-dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40D6C88BCD8E406F60F7F3DE /* en-bigram-dictionary.txt */; };
+		4F775963241E42E1E0CB7BDA /* DebugLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F555AD6524CF44DA6B23EE6 /* DebugLog.swift */; };
+		6C860C19E3FA7403CA717FF0 /* HotKeyRecorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42429DF739126977E6924799 /* HotKeyRecorderButton.swift */; };
+		AC1000002B0000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1000012B0000000000001 /* AppDelegate.swift */; };
+		AC1000002B0000000000002 /* AutocorrectInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1000012B0000000000002 /* AutocorrectInputController.swift */; };
+		AC1000002B0000000000003 /* SpellCorrector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1000012B0000000000003 /* SpellCorrector.swift */; };
+		AC1000002B0000000000005 /* InputMethodKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1000012B0000000000005 /* InputMethodKit.framework */; };
+		AC1000002B0000000000006 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1000012B0000000000006 /* Carbon.framework */; };
+		AC1000002B0000000000009 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1000012B0000000000009 /* main.swift */; };
+		AC1000002B000000000000A /* CorrectionRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1000012B000000000000A /* CorrectionRules.swift */; };
+		AC1000002B000000000000B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1000012B000000000000B /* Settings.swift */; };
+		AC1000002B000000000000C /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1000012B000000000000C /* PreferencesWindow.swift */; };
+		AC1000002B000000000000D /* CorrectionIndicatorWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1000012B000000000000D /* CorrectionIndicatorWindow.swift */; };
+		AC1000002B000000000000E /* LearnedWordsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1000012B000000000000E /* LearnedWordsWindow.swift */; };
+		F672C9077F75361CD07FC2DF /* HotKeyOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7B083E57D9204C2675534 /* HotKeyOption.swift */; };
+		FB096A1CA10D9F8635CD4932 /* SymSpellChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EAF4CE689B7E8F173B31F2 /* SymSpellChecker.swift */; };
+		AC1000002B000000000000F /* HunspellChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1000012B000000000000F /* HunspellChecker.swift */; };
+		AC1000002B0000000000011 /* libhunspell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1000012B0000000000011 /* libhunspell.a */; };
+		AC1000002B0000000000012 /* en_US.aff in Resources */ = {isa = PBXBuildFile; fileRef = AC1000012B0000000000012 /* en_US.aff */; };
+		AC1000002B0000000000013 /* en_US.dic in Resources */ = {isa = PBXBuildFile; fileRef = AC1000012B0000000000013 /* en_US.dic */; };
+		AC1000002B0000000000014 /* tech-terms.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC1000012B0000000000014 /* tech-terms.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05EAF4CE689B7E8F173B31F2 /* SymSpellChecker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SymSpellChecker.swift; sourceTree = "<group>"; };
+		2F555AD6524CF44DA6B23EE6 /* DebugLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebugLog.swift; sourceTree = "<group>"; };
+		32D7B083E57D9204C2675534 /* HotKeyOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HotKeyOption.swift; sourceTree = "<group>"; };
+		40D6C88BCD8E406F60F7F3DE /* en-bigram-dictionary.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = "en-bigram-dictionary.txt"; sourceTree = "<group>"; };
+		42429DF739126977E6924799 /* HotKeyRecorderButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HotKeyRecorderButton.swift; sourceTree = "<group>"; };
+		A09BFDBEF901ECB7ED459AD0 /* en-frequency-dictionary.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = "en-frequency-dictionary.txt"; sourceTree = "<group>"; };
+		AC1000012B0000000000000 /* EnglishAutocorrect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishAutocorrect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1000012B0000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC1000012B0000000000002 /* AutocorrectInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocorrectInputController.swift; sourceTree = "<group>"; };
+		AC1000012B0000000000003 /* SpellCorrector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCorrector.swift; sourceTree = "<group>"; };
+		AC1000012B0000000000005 /* InputMethodKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InputMethodKit.framework; path = System/Library/Frameworks/InputMethodKit.framework; sourceTree = SDKROOT; };
+		AC1000012B0000000000006 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		AC1000012B0000000000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1000012B0000000000008 /* EnglishAutocorrect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnglishAutocorrect.entitlements; sourceTree = "<group>"; };
+		AC1000012B0000000000009 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AC1000012B000000000000A /* CorrectionRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectionRules.swift; sourceTree = "<group>"; };
+		AC1000012B000000000000B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AC1000012B000000000000C /* PreferencesWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
+		AC1000012B000000000000D /* CorrectionIndicatorWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectionIndicatorWindow.swift; sourceTree = "<group>"; };
+		AC1000012B000000000000E /* LearnedWordsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnedWordsWindow.swift; sourceTree = "<group>"; };
+		AC1000012B000000000000F /* HunspellChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunspellChecker.swift; sourceTree = "<group>"; };
+		AC1000012B0000000000010 /* EnglishAutocorrect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnglishAutocorrect-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC1000012B0000000000011 /* libhunspell.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhunspell.a; path = Vendor/hunspell/libhunspell.a; sourceTree = "<group>"; };
+		AC1000012B0000000000012 /* en_US.aff */ = {isa = PBXFileReference; includeInIndex = 1; path = en_US.aff; sourceTree = "<group>"; };
+		AC1000012B0000000000013 /* en_US.dic */ = {isa = PBXFileReference; includeInIndex = 1; path = en_US.dic; sourceTree = "<group>"; };
+		AC1000012B0000000000014 /* tech-terms.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = "tech-terms.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC1000032B0000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1000002B0000000000005 /* InputMethodKit.framework in Frameworks */,
+				AC1000002B0000000000006 /* Carbon.framework in Frameworks */,
+				AC1000002B0000000000011 /* libhunspell.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC1000042B0000000000001 = {
+			isa = PBXGroup;
+			children = (
+				AC1000042B0000000000002 /* EnglishAutocorrect */,
+				AC1000042B0000000000003 /* Frameworks */,
+				AC1000042B0000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1000042B0000000000002 /* EnglishAutocorrect */ = {
+			isa = PBXGroup;
+			children = (
+				AC1000012B0000000000009 /* main.swift */,
+				AC1000012B0000000000001 /* AppDelegate.swift */,
+				AC1000012B0000000000002 /* AutocorrectInputController.swift */,
+				AC1000012B0000000000003 /* SpellCorrector.swift */,
+				AC1000012B000000000000A /* CorrectionRules.swift */,
+				AC1000012B000000000000B /* Settings.swift */,
+				AC1000012B000000000000C /* PreferencesWindow.swift */,
+				AC1000012B000000000000D /* CorrectionIndicatorWindow.swift */,
+				AC1000012B000000000000E /* LearnedWordsWindow.swift */,
+				AC1000012B0000000000007 /* Info.plist */,
+				AC1000012B0000000000008 /* EnglishAutocorrect.entitlements */,
+				05EAF4CE689B7E8F173B31F2 /* SymSpellChecker.swift */,
+				A09BFDBEF901ECB7ED459AD0 /* en-frequency-dictionary.txt */,
+				32D7B083E57D9204C2675534 /* HotKeyOption.swift */,
+				42429DF739126977E6924799 /* HotKeyRecorderButton.swift */,
+				2F555AD6524CF44DA6B23EE6 /* DebugLog.swift */,
+				40D6C88BCD8E406F60F7F3DE /* en-bigram-dictionary.txt */,
+				AC1000012B000000000000F /* HunspellChecker.swift */,
+				AC1000012B0000000000010 /* EnglishAutocorrect-Bridging-Header.h */,
+				AC1000012B0000000000012 /* en_US.aff */,
+				AC1000012B0000000000013 /* en_US.dic */,
+				AC1000012B0000000000014 /* tech-terms.txt */,
+			);
+			path = EnglishAutocorrect;
+			sourceTree = "<group>";
+		};
+		AC1000042B0000000000003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC1000012B0000000000005 /* InputMethodKit.framework */,
+				AC1000012B0000000000006 /* Carbon.framework */,
+				AC1000012B0000000000011 /* libhunspell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC1000042B0000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1000012B0000000000000 /* EnglishAutocorrect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC1000052B0000000000001 /* EnglishAutocorrect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1000062B0000000000002 /* Build configuration list for PBXNativeTarget "EnglishAutocorrect" */;
+			buildPhases = (
+				AC1000052B0000000000002 /* Sources */,
+				AC1000032B0000000000001 /* Frameworks */,
+				4C0F45FC01EA523E294F0336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnglishAutocorrect;
+			productName = EnglishAutocorrect;
+			productReference = AC1000012B0000000000000 /* EnglishAutocorrect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC1000062B0000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					AC1000052B0000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AC1000062B0000000000003 /* Build configuration list for PBXProject "EnglishAutocorrect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC1000042B0000000000001;
+			productRefGroup = AC1000042B0000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC1000052B0000000000001 /* EnglishAutocorrect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C0F45FC01EA523E294F0336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111CE3987279282EB7C26561 /* en-frequency-dictionary.txt in Resources */,
+				38F55CD63CAFADA85117875F /* en-bigram-dictionary.txt in Resources */,
+				AC1000002B0000000000012 /* en_US.aff in Resources */,
+				AC1000002B0000000000013 /* en_US.dic in Resources */,
+				AC1000002B0000000000014 /* tech-terms.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC1000052B0000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1000002B0000000000009 /* main.swift in Sources */,
+				AC1000002B0000000000001 /* AppDelegate.swift in Sources */,
+				AC1000002B0000000000002 /* AutocorrectInputController.swift in Sources */,
+				AC1000002B0000000000003 /* SpellCorrector.swift in Sources */,
+				AC1000002B000000000000A /* CorrectionRules.swift in Sources */,
+				AC1000002B000000000000B /* Settings.swift in Sources */,
+				AC1000002B000000000000C /* PreferencesWindow.swift in Sources */,
+				AC1000002B000000000000D /* CorrectionIndicatorWindow.swift in Sources */,
+				AC1000002B000000000000E /* LearnedWordsWindow.swift in Sources */,
+				FB096A1CA10D9F8635CD4932 /* SymSpellChecker.swift in Sources */,
+				F672C9077F75361CD07FC2DF /* HotKeyOption.swift in Sources */,
+				6C860C19E3FA7403CA717FF0 /* HotKeyRecorderButton.swift in Sources */,
+				4F775963241E42E1E0CB7BDA /* DebugLog.swift in Sources */,
+				AC1000002B000000000000F /* HunspellChecker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC1000072B0000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC1000072B0000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AC1000072B0000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EnglishAutocorrect/EnglishAutocorrect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					HUNSPELL_STATIC,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/hunspell/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/hunspell",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+				);
+				SWIFT_OBJC_BRIDGING_HEADER = "EnglishAutocorrect/EnglishAutocorrect-Bridging-Header.h";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EnglishAutocorrect/Info.plist;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sikai.inputmethod.EnglishAutocorrect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC1000072B0000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EnglishAutocorrect/EnglishAutocorrect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					HUNSPELL_STATIC,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/hunspell/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/hunspell",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+				);
+				SWIFT_OBJC_BRIDGING_HEADER = "EnglishAutocorrect/EnglishAutocorrect-Bridging-Header.h";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EnglishAutocorrect/Info.plist;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sikai.inputmethod.EnglishAutocorrect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC1000062B0000000000002 /* Build configuration list for PBXNativeTarget "EnglishAutocorrect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1000072B0000000000003 /* Debug */,
+				AC1000072B0000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1000062B0000000000003 /* Build configuration list for PBXProject "EnglishAutocorrect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1000072B0000000000001 /* Debug */,
+				AC1000072B0000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC1000062B0000000000001 /* Project object */;
+}

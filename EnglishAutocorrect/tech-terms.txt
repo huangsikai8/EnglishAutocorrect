@@ -1,0 +1,195 @@
+# Technical vocabulary that is never autocorrected.
+#
+# These are words a developer types deliberately but that no general
+# English dictionary carries, so every spell checker treats them as
+# misspelled and reaches for the nearest real word -- "kubectl" becomes
+# "tubercle", "redis" becomes "rides". Listing them here stops that.
+#
+# The list only *protects*: a term here is left exactly as typed. It is
+# not a correction target, so a typo of one ("kubernets") is left alone
+# rather than fixed.
+#
+# One term per line, case-insensitive. Blank lines and #-comments are
+# ignored. Adding a term needs a rebuild; the Learned Words window is
+# the way to add one instantly.
+#
+# Short terms that double as plausible typos of English words (env, sed,
+# nvm) are included deliberately: for someone who types them daily, a
+# wrong "correction" costs more than an uncaught slip.
+
+# --- languages and runtimes ---
+golang gopls rustc rustup cargo clippy kotlin scala haskell erlang elixir
+clojure clojurescript ocaml fsharp typescript javascript ecmascript coffeescript
+nodejs deno bun jruby cpython pypy mypy numba cython graalvm openjdk jvm jdk jre
+dotnet msbuild nuget roslyn wasm webassembly emscripten llvm clang gcc mingw
+verilog vhdl systemverilog matlab octave fortran cobol
+sqlalchemy solidity vyper zig nim crystal julia
+
+# --- package managers and build tools ---
+npm pnpm yarn npx pipenv poetry virtualenv venv conda mamba homebrew
+gradle maven sbt bazel buck cmake automake autoconf ninja meson rake
+webpack rollup vite parcel esbuild swc babel turbopack browserify gulp grunt
+eslint tslint prettier stylelint rubocop pylint flake8 ruff isort autopep
+pytest unittest jest vitest mocha chai jasmine karma cypress playwright
+selenium puppeteer testcafe junit testng rspec minitest phpunit
+
+# --- web frameworks and frontend ---
+react preact angular vue svelte sveltekit solidjs nextjs nuxt remix astro gatsby
+redux mobx zustand recoil jotai rxjs
+django flask fastapi starlette sanic tornado bottle pyramid
+rails sinatra hanami laravel symfony codeigniter
+express koa hapi nestjs fastify restify
+gin fiber chi mux gorilla axum actix rocket warp tokio hyper
+tailwind bootstrap bulma chakra mui antd shadcn htmx alpinejs jquery lodash
+webpack postcss sass scss less stylus tsx jsx vdom dom
+nginx apache httpd haproxy traefik caddy envoy varnish squid
+
+# --- containers, orchestration, infrastructure ---
+kubernetes kubectl kubeadm kubelet kubeconfig minikube kustomize helm
+docker dockerfile dockerhub podman buildah skopeo containerd runc crio
+istio linkerd consul nomad vault packer vagrant terraform terragrunt pulumi
+ansible saltstack puppet chef cloudinit
+openshift rancher argocd fluxcd tekton jenkins circleci travisci buildkite
+prometheus grafana loki tempo thanos cortex victoriametrics
+jaeger zipkin opentelemetry otel datadog newrelic splunk sumologic
+logstash kibana elasticsearch opensearch fluentd fluentbit filebeat metricbeat
+nagios zabbix icinga pagerduty opsgenie statuspage sentry rollbar bugsnag
+
+# --- cloud providers and services ---
+aws gcp azure ec2 ecs eks ecr fargate lambda cloudwatch cloudfront cloudformation
+dynamodb rds aurora redshift athena glue kinesis firehose sagemaker
+sqs sns ses iam sts kms vpc subnet subnets acl nacl elb alb nlb
+route53 cloudtrail cloudconfig codebuild codedeploy codepipeline
+gke gcs bigquery bigtable pubsub dataflow dataproc firestore firebase
+appengine cloudrun cloudfunctions vertexai
+aks cosmosdb blobstorage
+cloudflare fastly akamai vercel netlify heroku digitalocean linode vultr
+supabase planetscale neon railway render flyio
+
+# --- databases and data stores ---
+postgres postgresql psql pgadmin pgbouncer plpgsql
+mysql mariadb sqlite sqlite3 mssql oracledb
+mongodb mongo mongoose redis memcached valkey
+cassandra scylla dynamo couchdb couchbase rethinkdb
+neo4j cypher gremlin arangodb dgraph
+influxdb timescaledb questdb clickhouse duckdb monetdb
+snowflake databricks delta iceberg hudi
+presto trino hive hbase impala drill spark pyspark flink beam storm samza
+kafka rabbitmq activemq nats pulsar zeromq mqtt amqp
+zookeeper etcd consul
+orm dao dto crud upsert cte oltp olap etl elt
+sharding shards resharding denormalized denormalization
+
+# --- data science and machine learning ---
+numpy scipy pandas dataframe dataframes polars dask vaex modin
+matplotlib seaborn plotly bokeh altair ggplot
+sklearn scikit statsmodels xgboost lightgbm catboost
+pytorch tensorflow keras jax flax haiku onnx tflite coreml
+huggingface transformers diffusers datasets tokenizers safetensors
+langchain llamaindex ollama vllm sglang exllama llamacpp
+cuda cudnn nccl rocm tensorrt triton openvino
+tokenizer tokenizers tokenization detokenize embeddings embedding
+finetune finetuning pretrain pretraining pretrained
+hyperparameter hyperparameters backprop backpropagation
+softmax relu gelu silu sigmoid tanh argmax argmin logits logit
+adam adamw rmsprop sgd lr scheduler
+lstm gru cnn rnn gan vae mlp transformer attention
+bert gpt llm llms slm rag moe lora qlora peft rlhf dpo
+tensor tensors ndarray ndarrays vectorize vectorized vectorization
+overfit overfitting underfit regularization dropout
+precision recall auroc auprc rmse mae mape
+notebook jupyter colab kaggle mlflow wandb dvc
+
+# --- version control ---
+git github gitlab bitbucket gitea gerrit
+gitignore gitattributes gitmodules submodule submodules
+rebase rebasing cherrypick bisect reflog stash unstage
+monorepo polyrepo upstream downstream changeset
+pullrequest mergerequest hotfix
+
+# --- protocols, formats, security ---
+http https http2 http3 quic tcp udp ip ipv4 ipv6 icmp
+grpc protobuf thrift graphql rest restful soap rpc jsonrpc
+websocket websockets webrtc sse
+oauth oidc jwt jwks saml ldap kerberos sso mfa totp
+ssh sshd scp sftp ssl tls mtls x509 pki csr acme certbot letsencrypt
+dns dnssec cdn cors csrf xss sqli rce ssrf idor
+sql nosql newsql ddl dml
+json jsonl ndjson geojson yaml yml toml ini xml xhtml csv tsv
+avro parquet orc msgpack bson cbor
+base64 hex utf8 utf16 ascii unicode codepoint bom
+uuid guid ulid nanoid slug
+md5 sha1 sha256 hmac bcrypt scrypt argon2 pbkdf2 salting nonce
+aes rsa ecdsa ed25519 curve25519 gpg pgp
+
+# --- operating systems and shell ---
+linux gnu ubuntu debian fedora centos rhel alpine archlinux nixos nix guix
+opensuse gentoo slackware busybox
+macos ios ipados watchos tvos visionos unix posix bsd freebsd openbsd netbsd
+bash zsh fish ksh csh dash powershell pwsh cmd
+tmux screen vim neovim nvim emacs nano helix
+grep egrep fgrep ripgrep sed awk cut tr sort uniq xargs
+curl wget httpie netcat nmap tcpdump wireshark
+sudo chmod chown chgrp umask chroot setuid
+cron crontab systemd systemctl journalctl launchd launchctl initd upstart
+dmesg htop btop iotop iostat vmstat netstat lsof strace dtrace ltrace perf
+rsync tarball gzip bzip2 xztar zstd
+symlink symlinks hardlink inode inodes fstab mountpoint
+stdin stdout stderr fd fds pid pids ppid tty pty
+ulimit initramfs grub uefi bios kexec
+apt aptitude dpkg yum dnf rpm pacman zypper snap flatpak appimage
+
+# --- apple platform ---
+xcode xcodebuild xcconfig xcassets swiftui uikit appkit cocoa cocoapods
+objc swiftpm carthage fastlane testflight
+dyld dylib plist entitlements codesign notarization keychain
+nsstring nsobject nsview nsarray uiview uiviewcontroller
+imkit imk simulator instruments lldb
+
+# --- general engineering vocabulary ---
+async await asyncio coroutine coroutines goroutine goroutines
+middleware middlewares webhook webhooks endpoint endpoints callback callbacks
+api apis sdk cli tui gui repl ide lsp cicd devops sre mlops dataops
+repo repos config configs env envs dotenv changelog readme licence
+runtime runtimes toolchain toolchains bootstrapping scaffolding boilerplate
+refactor refactored refactoring linter linting formatter
+transpile transpiler transpiled polyfill shim bundler minify minified uglify
+memoize memoized memoization idempotent idempotency
+serverless microservice microservices monolith monolithic
+orchestration containerization virtualization hypervisor
+replication replica replicas failover rollback rollout canary autoscaling
+throughput latency percentile backpressure debounce throttle throttling
+mutex semaphore deadlock livelock starvation
+closure closures currying monad monads functor functors
+immutable mutable nullable nullability generics polymorphism
+encapsulation singleton middleware pubsub
+namespace namespaces enum enums struct structs typedef
+malloc calloc realloc memcpy memset segfault
+nullptr undefined nan noop
+stacktrace traceback breakpoint debugger profiler
+codebase codebases refactorable testable observability telemetry
+frontend backend fullstack devtools localhost intranet
+uri url urls uris slugify
+timestamp timestamps epoch unixtime iso8601 cron
+regex regexes regexp lookahead lookbehind backreference
+whitespace lowercase uppercase camelcase snakecase kebabcase pascalcase
+bitmask bitwise xor lsb msb endianness
+mmap ioctl epoll kqueue
+gc heap stackframe bytecode opcode opcodes jit aot
+cpu gpu tpu npu ram vram ssd nvme raid
+sysadmin ops runbook postmortem oncall
+
+# --- products and services ---
+slack jira confluence notion figma miro asana trello linear
+zoom webex okta auth0 stripe braintree plaid twilio sendgrid mailgun postmark
+segment mixpanel amplitude posthog optimizely launchdarkly
+zendesk intercom hubspot salesforce
+openai anthropic deepmind mistral cohere replicate together groq
+vscode jetbrains intellij pycharm webstorm goland datagrip
+postman insomnia swagger openapi redoc
+
+# --- short terms that double as plausible typos (deliberate, see header) ---
+env sed awk nvm idx tmp cfg pkg lib bin src dst usr var opt etc proc
+ctx req res msg err val num str obj arr func fn arg args param params
+init impl util utils cli api sdk ui ux db kv ttl uid gid pid
+localhost sudo grep vim npm git ssh dns cdn api
